@@ -80,7 +80,7 @@ def Game():
 
     def GuessWord(chances):
 
-        while ("".join(b)) != word[0:len(word)-1].upper() and chances < 5:
+        while ("".join(b)) != word[0:len(word)-1].upper() and chances < 5:              # I used len(word)-1 to compare as the word list I used had a space after every word that was present
 
             a = input("Guess an alphabet")
             a = a.lower()
