@@ -70,7 +70,7 @@ last = "no"
 import random
 
 def Game():
-    with open("C:\\Users\\aarya\\Desktop\\Assignment\\CSCI\\Hangman\\wordsEn.txt") as f:
+    with open("C:\\Users\\aarya\\Desktop\\Assignment\\CSCI\\Hangman\\wordsEn.txt") as f:    #change the file directory and the name according to your wordlist file
         word = (random.choice(list(f)))
     b = []
     c = []
